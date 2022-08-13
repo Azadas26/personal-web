@@ -4,9 +4,13 @@
 
 $(document).ready(function()
 {
-    $("#home").click(function()
+    $("#home").mouseenter(function()
     {
        $(this).css({"background":"red"})
+    })
+    $("#home").mouseleave(function()
+    {
+        $(this).css({"background":"#0066ff"})
     })
     
     $("#prj1").mouseenter(function()
